@@ -1,0 +1,29 @@
+# TaskMaster 📝
+A console-based Java to-do list manager that demonstrates full object-oriented programming principles Project #1.
+
+## 📌 Features
+- Create regular and priority tasks
+- Set task descriptions and deadlines
+- Sort tasks by deadline or priority level
+- Search tasks by title
+- Remove tasks from the list
+- All data handled using an ArrayList
+
+## 🧠 Concepts Demonstrated
+- ✅ Inheritance: `PriorityTask` extends `Task`
+- ✅ Encapsulation: Private fields + getters/setters
+- ✅ Constructor Overloading
+- ✅ Overriding: `toString()` and `equals()`
+- ✅ Java Collections: `ArrayList<Task>`
+- ✅ Interface: `Comparable` for sorting logic
+
+## 🛠️ Tech Stack
+- Java 17
+- CLI (no GUI)
+- VS Code / Terminal
+
+## 🏁 How to Run
+
+```bash
+javac *.java
+java App
